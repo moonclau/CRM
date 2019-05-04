@@ -4,11 +4,6 @@
     Author     : INSPIRON
 --%>
 
-<%-- 
-    Document   : index
-    Created on : 2/10/2018, 11:54:42 PM
-    Author     : fgb
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -24,7 +19,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>SAP</title>
+    <title>CRM</title>
     <!--Enlace a estilos personalizados de COntabilidad-->
     <link href="../Recursos/css/contabilidad.css" rel="stylesheet" type="text/css"/>
     <!--Validacion de campos-->
