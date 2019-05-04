@@ -87,9 +87,42 @@
             <div id="vertical-bar"></div>
             <br>
             <!--Columna Central-->
-             <center><h1 >Bienvenido al CRM </h1></center>
+             
+        <!--Columna Central-->
+        <div class="col-xs-8 col-md-8 central table-responsive jumbotron">
+                    <center>
+                        <h1 class="text-uppercase text-center">Modificar Cliente</h1>
+                        <br>
+                        <form method="POST" action="../ModificarCliente" autocomplete="off">
+                            <table>
+                                <tr>
+                                    <td>
+                                        Id&nbsp;del&nbsp;cliente
+                                    </td>
+                                    <td>
+                                        <input type="number" id="modificarIdCliente" name="modificarIdCliente" class="form-control form-control-sm" required="required"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td colspan="2">
+                                        <center>
+                                            <br>
+                                            <input type="submit" class="btn btn-primary" value="Buscar"/>
+                                        </center>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </center>
+        </div>
+        
+        <!--columna de la derecha-->
+        <div class="col-xs-3 col-md-3 derecha table-responsive">
+        </div>
            
             <!--columna de la derecha-->
-        
+        </div>
+ </div>
+    
     </body>
 </html>
